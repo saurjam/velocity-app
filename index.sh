@@ -1,11 +1,12 @@
 #!/bin/bash
 
-git branch 2022Q1
-touch private.hmtl devloper.html scooty.html
+git remote add origin "https://github.com/saurjam/velocity-app.git" 
+git branch 2022Q2
+git checkout 2022Q2
+touch men.hmtl satya.html tvs.html
 git add *
 git status
-git commit -m "New branch with 3 files updated"
-git config --global user.name saurjam
-git config --global user.email saurabh.jamdade@13gmail.com 
-git push origin master
- 
+git commit -m "2022Q2 branch with 3 files updated"
+git status
+git push origin 2022Q2
+git log 
